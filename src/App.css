@@ -1,0 +1,42 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.spacing {
+  margin : 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  flex: 0 0 calc(10% - 20px);
+  max-width: calc(10% - 20px);
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.formSpacing {
+  margin-right: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.maxWidth {
+  max-width: 200px;
+}
